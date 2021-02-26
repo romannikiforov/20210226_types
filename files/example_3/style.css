@@ -1,0 +1,29 @@
+.products-grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+}
+
+.product-item {
+  padding: 0.5rem;
+  border: double 2px #e2e2e2;
+}
+.product-item p:first-of-type {
+  font-weight: bold;
+}
+.product-item p:nth-of-type(2) {
+  color: tomato;
+}
+
+.product-item p:nth-of-type(3) {
+  color: green;
+}
+.total {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: tomato;
+}
+.total span {
+  margin-left: 8px;
+}
